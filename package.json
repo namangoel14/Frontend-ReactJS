@@ -1,0 +1,19 @@
+{
+  "name": "learning-reactjs",
+  "version": "1.0.0",
+  "description": "This is ReactJS learning journey.",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/namangoel14/Frontend-ReactJS)"
+  },
+  "keywords": [],
+  "author": "Naman Goel",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  }
+}
