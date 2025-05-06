@@ -18,3 +18,9 @@
 - Parcel can do tree Shaking -> it will remove unused code for us.
 - It creates and different dev and production bundles
 
+# Function component
+- A function which returns an JSX known as Functional component.
+- Note:- We always have to define a variable with capital letter - this is the way where react can understand that it is the component. 
+
+# Component Composition
+- We can call another and different types of component into other component is known as component composition.
