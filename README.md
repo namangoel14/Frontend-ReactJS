@@ -24,3 +24,6 @@
 
 # Component Composition
 - We can call another and different types of component into other component is known as component composition.
+
+# JSX
+- We inject and javasript code inside the JSX code.
