@@ -31,7 +31,7 @@
 }
 
 .mood{
-    font-size: 50px;
+    font-size: 40px;
     padding-left: 100px;
     display: flex;
     justify-content: center;
@@ -88,6 +88,11 @@
     box-shadow: 0 0 20px #999;
     transform: scale(1.03);
 }
+
+
 .res-logo{
     width: 200px;
+    height: 150px; /* or auto, depending on design */
+    object-fit: cover; /* crop and fill the box */
+    border-radius: 10px;
 }

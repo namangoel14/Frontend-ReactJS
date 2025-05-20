@@ -54,17 +54,18 @@ const Header = () => {
 
 // restaurant-card component inside the body for our Food App
 
-const RestaurantCard = () => {
+const RestaurantCard = props => {
+  console.log(props);
   return (
     <div className="res-card" style={{ backgroundColor: '#f0f0f0' }}>
       <img
         className="res-logo"
         alt="res-logo"
         style={{ borderRadius: '10px' }}
-        src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/2/11/79f3aab9-72aa-4870-83ff-c042af5e0860_c9b188a1-85ca-42f5-a32a-908093921b13.jpg"
+        src={props.src}
       />
-      <h3>Desi street food</h3>
-      <h4>Briyani, North Indian, Asian Food</h4>
+      <h3>{props.resName}</h3>
+      <h4>{props.cuisine}</h4>
       <h4>4.4 stars</h4>
       <h4>40-45 mins</h4>
     </div>
@@ -85,21 +86,16 @@ const Body = () => {
         </button>
       </div>
       <div className="res-container">
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
-        <RestaurantCard />
+        <RestaurantCard
+          resName="Desi Street Food"
+          cuisine="Briyani, North Indian, Asian Food"
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/FOOD_CATALOG/IMAGES/CMS/2025/2/11/79f3aab9-72aa-4870-83ff-c042af5e0860_c9b188a1-85ca-42f5-a32a-908093921b13.jpg"
+        />
+        <RestaurantCard
+          resName="Desi ghar ka Khana"
+          cuisine="Dal Roti, Rajma Chawal, Chole Chawal"
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_300,h_300,c_fit/fed971de546c87e24a5062410bec922e"
+        />
       </div>
     </div>
   );
