@@ -8,10 +8,13 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
+    
 }
 
 .logo{
     width: 200px;
+    border-radius: 100px; 
+    
 }
 
 .cart{
@@ -79,7 +82,7 @@
     margin: 20px;
     padding: 5px;
     width: 200px;
-    height: 350px;
+  
     border: 1px solid transparent;
 }
 .res-card:hover{
