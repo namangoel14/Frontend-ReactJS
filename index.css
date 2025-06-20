@@ -8,7 +8,13 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid black;
-    
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(170, 146, 146, 0.6); /* semi-transparent */
+    backdrop-filter: blur(10px); /* blur effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
 }
 
 .logo{
@@ -34,6 +40,7 @@
 }
 
 .mood{
+    font-family: 'Inter', sans-serif;
     font-size: 40px;
     padding-left: 100px;
     display: flex;

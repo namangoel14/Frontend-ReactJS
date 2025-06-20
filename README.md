@@ -27,3 +27,39 @@
 
 # JSX
 - We inject and javasript code inside the JSX code.
+
+# Our Food delivery Wireframe
+
+/*  Low level planning for food ordering Application
+ * Header
+ * - Logo
+ * - Navigation Items (About, Home etc.)
+ * Body
+ * - Search
+ * - Location
+ * - RestaurantContainer
+ *   - RestaurantCard
+ *      - cuisins
+ *      - star rating
+ *      - delivery timing
+ * Footer
+ * - CopyRights
+ * - Address
+ * - Contact
+ */
+
+ # Export and Import
+ - There are two types of them:
+ 1. Naming and,
+ 2. Default
+
+ Naming -> 
+ export const variable = {};
+
+ import {variable} from "../xyz";
+
+ Default -> 
+
+ export default component;
+
+ import component from "xyz";
